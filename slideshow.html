@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="revealjs/dist/theme/black.css">
+  <style>
+    body { width: 800px; height: 600px; margin: 0; }
+    .reveal { height: 100%; }
+    #addSlideBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <h2>Welcome to RevealJS</h2>
+        <p>This is a simple slideshow example.</p>
+      </section>
+      <section>
+        <h2>Slide 2</h2>
+        <p>This is the second slide.</p>
+      </section>
+    </div>
+  </div>
+  <button id="addSlideBtn">Add New Slide</button>
+  <script src="revealjs/dist/reveal.js"></script>
+  <script src="slideshow.js"></script>
+</body>
+</html>
